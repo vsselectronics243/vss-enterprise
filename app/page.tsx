@@ -1,3 +1,4 @@
+import BookingForm from "./components/BookingForm";
 const services = [
   {
     icon: "❄️",
@@ -563,11 +564,7 @@ export default function Home() {
               </ul>
             </div>
           </div>
-
-          <div className="rounded-[2rem] bg-white p-8 shadow-xl">
-            <h3 className="text-2xl font-black text-blue-950">
-              Book through WhatsApp
-            </h3>
+              <BookingForm />
 
             <p className="mt-3 text-slate-600">
               बटन दबाने पर WhatsApp में तैयार Booking Message खुलेगा।
@@ -596,10 +593,8 @@ export default function Home() {
                 Bagoda तथा आसपास के क्षेत्र
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-
+          </div>  
+          </section>
       {/* Contact Section */}
       <section id="contact" className="py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
